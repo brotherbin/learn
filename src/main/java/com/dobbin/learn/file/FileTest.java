@@ -27,6 +27,7 @@ public class FileTest {
 		}
 	}
 
+	@SuppressWarnings("resource")
 	private List<String> readTxtFileLine(String filePath) throws IOException {
 		List<String> lineList = new ArrayList<String>();
 		File file = new File(filePath);

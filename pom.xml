@@ -56,6 +56,18 @@
 			<artifactId>druid</artifactId>
 			<version>1.0.22</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper -->
+		<dependency>
+			<groupId>org.apache.zookeeper</groupId>
+			<artifactId>zookeeper</artifactId>
+			<version>3.4.8</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.curator/curator-framework -->
+		<dependency>
+			<groupId>org.apache.curator</groupId>
+			<artifactId>curator-framework</artifactId>
+			<version>3.2.0</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>learn</finalName>

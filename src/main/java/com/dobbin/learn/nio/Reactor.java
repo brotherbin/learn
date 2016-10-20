@@ -46,11 +46,9 @@ public class Reactor {
 					}
 					keys = tSelector.selectedKeys();
 					for (SelectionKey key : keys) {
-						SocketChannel tSocketChannel = null;
 						try {
 							Object attachment = key.attachment();
 							if (attachment != null) {
-								tSocketChannel = (SocketChannel)attachment;
 								if (key.isValid() && key.isReadable()) {
 									// process read ...
 								}
